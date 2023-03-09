@@ -1,46 +1,9 @@
-Lion's Den pre-selection assignment
+# Lion's Den pre-selection assignment
 
+This repository holds codes used for the analysis and modeling of the probability of default. The following files contains the next stages of the analysis:
 
-Variables:
-- ID -	Customer ID
-- obs_date - observation date when financial data are observed
-- Var_01 -	Assets Current Total
-- Var_02 -	Assets Total
-- Var_03 -	Cash And Cash Equivalents
-- Var_04 -	Current Ratio
-- Var_05 -	Debt Net Worth
-- Var_06 -	Depreciation And Impairment
-- Var_07 -	EBITDA Margin
-- Var_08 -	Earnings Before Interest And Tax
-- Var_09 -	Earnings Before Interest Tax And Depreciation
-- Var_10 -	Eff Tang Net Worth Actual
-- Var_11 -	Equity And Liabilities Total
-- Var_12 -	Equity And Reserves
-- Var_13 -	Financial Leverage
-- Var_14 -	Gross Profit
-- Var_15 -	Gross Profit Margin
-- Var_16 -	IFRS_Assets Current Total
-- Var_17 -	IFRS_Assets Non Current Total
-- Var_18 -	IFRS_Assets Total
-- Var_19 -	IFRS_Equity And Liabilities Total
-- Var_20 -	Interest Expense
-- Var_21 -	Liabilities Current Total
-- Var_22 -	Net Profit
-- Var_23 -	Net Profit Margin
-- Var_24 -	Profit Loss Before Tax
-- Var_25 -	Quick Ratio
-- Var_26 -	Receivables Current
-- Var_27 -	Return On Assets
-- Var_28 -	Return On Total Equity Reserve
-- Var_29 -	Revenues
-- Var_30 -	Sales Excluding VAT
-- Var_31 -	Sales Total Assets
-- Var_32 -	Senior Net Debt
-- Var_33 -	Senior Net Debt EBITDA
-- Var_34 -	Tangible Net Worth
-- Var_35 -	Total Liabilities Total Assets
-- Var_36 -	Total Net Debt
-- Var_37 -	Total Net Debt EBITDA
-- Var_38 -	Trade And Other Payables Current
-- Var_39 -	Working Capital
-- default -	target variable: 1 for a performing company defaulting within the next 12 months, 0 otherwise
+- analysis.ipynb - analysis, data cleaning, processing 
+- modeling.ipynb - evaluation of logistic regression with the RF as feature importance
+- pca.ipynb - post modeling analysis of the problem
+
+The summary report of the analysis with the answer for the two tasks can be found in the KK_report.pdf.
